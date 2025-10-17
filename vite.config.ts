@@ -5,6 +5,7 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/project-admin/',
   plugins: [react(), tailwindcss(),svgr({
       svgrOptions: {
         icon: true, // để svg tự động scale theo viewBox

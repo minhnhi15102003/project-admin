@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/project-admin">
         <Routes>
           <Route path="/" element={<AppLayout/>}>
             <Route path="" element={<Home/>}/>
