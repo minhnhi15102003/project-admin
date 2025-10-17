@@ -4,7 +4,7 @@ import PageBreadCrumb from "../../components/common/PageBreadCrumb"
 import InputField from "../../components/from/input/InputField"
 import Label from "../../components/from/Label"
 import Select from "../../components/from/Select"
-import Switch from "../../components/from/switch/switch"
+import Switch from "../../components/from/switch/Switch"
 import UploadComponent from "../../components/from/UploadComponent"
 
 const Product = () => {

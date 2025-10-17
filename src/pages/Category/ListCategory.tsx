@@ -5,7 +5,7 @@ import { PlusIcon } from "../../icon"
 
 
 const ListCategory = () => {
-    const [isOpenDialogCategory, setIsOpenDialogCategory] = useState()
+    const [isOpenDialogCategory, setIsOpenDialogCategory] = useState<boolean>(false);
     return (
         <div>
             <PageBreadCrumb pageTitle="Danh sách danh mục"/>
